@@ -56,15 +56,15 @@ family or spirituality.
 
 - feelings: A score from 0 to 1 expressing how likely it is that this song’s lyrics have something to do with emotions, either positive or negative.
 
-topic: The categorical label of lyrical content
+- topic: The categorical label of lyrical content
 
 - age: A score from 0 to 1 expressing how “old” a song is from our perspective. 1 being the oldest, and 0 being the newest.
 
 ### Project Goals
 
-Perform EDA
-Data cleaning
-Model trainning and evaluation.
+- Perform EDA
+- Data cleaning
+- Model training and evaluation.
 
 ### Exploratory Data Analysis (EDA)
 
