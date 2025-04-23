@@ -9,7 +9,7 @@ Audio Recommendation Algorithm - Basic Project
 
 ### 📂 Dataset Description
 
-The dataset used in this project contains anonymized financial transaction records. Each row represents a single transaction, and the goal is to classify whether the transaction is fraudulent (1) or legitimate (0). Fraudulent transactions are rare, which introduces a significant class imbalance—a central challenge in this project.
+This dataset contains a mix of lyrical and continuous variables pulled from a 2020 research paper titled Music Dataset: Lyrics and Metadata from 1950 to 2019. 
 
 Columns Overview
 - artist_name: The name of the artist
@@ -87,7 +87,7 @@ To prepare the dataset for modeling. I removed all non-numerical columns such as
 
 ### Model Training & Evaluation
 
-I first ran KMeans without scaling to see the difference compared to using scaled data. There was a noticeable improvement after scaling—the clusters were much cleaner and more defined. I also used PCA for visualization after scaling, which helped show how the data was separated more clearly.
+I first ran KMeans without scaling to see the difference compared to using scaled data. There was a noticeable improvement after scaling the clusters were much cleaner and more defined. I also used PCA for visualization after scaling, which helped show how the data was separated more clearly.
 
 
 I used both the elbow method and silhouette scores to decide on the best value for K. Based on the highest silhouette score and a clear bend in the elbow plot, I chose K = 10 for my final model. This number gave me well-separated and stable clusters.
