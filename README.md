@@ -64,7 +64,7 @@ family or spirituality.
 
 - Perform EDA
 - Data cleaning
-- Model training and evaluation.
+- Trained a model to cluster songs with similar features. 
 
 ### Exploratory Data Analysis (EDA)
 
@@ -120,5 +120,3 @@ sklearn.cluster.KMeans – for clustering the music dataset
 
 sklearn.metrics.silhouette_score – to evaluate the quality of clusters
 
-🔢 Statistical Tools:
-scipy.stats (optional, if used for further stats tests or outlier treatment)
